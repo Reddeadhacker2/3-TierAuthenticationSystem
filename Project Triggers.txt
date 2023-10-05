@@ -1,0 +1,49 @@
+****Registration****
+//--Table Creation--//
+create table registration(Sr_No number(10) primary key,user_id varchar2(18),password varchar2(18));
+
+//--Sequence Creation--//
+CREATE SEQUENCE reg_seq START WITH 1;
+
+//--Trigger--//
+CREATE OR REPLACE TRIGGER reg_bir 
+BEFORE INSERT ON registration 
+FOR EACH ROW
+
+BEGIN
+  SELECT reg_seq.NEXTVAL
+  INTO   :new.Sr_No
+  FROM   dual;
+END;
+/
+
+
+‎****Patregistration****
+//--Table Creation--//
+create table patregistration(Sr_No number(10) primary key,user_id varchar2(18),pattern varchar2(10));
+
+//--Sequence Creation--//
+CREATE SEQUENCE patreg_seq START WITH 1;
+ 
+//--Trigger--//
+CREATE OR REPLACE TRIGGER patreg_bir 
+BEFORE INSERT ON patregistration 
+FOR EACH ROW
+
+BEGIN
+  SELECT patreg_seq.NEXTVAL
+  INTO   :new.Sr_No
+  FROM   dual;
+END;
+/
+
+//--Copy Trigger--//
+CREATE OR REPLACE TRIGGER copy_reg_patreg_trg BEFORE INSERT ON registration
+   FOR EACH ROW
+BEGIN
+    INSERT INTO patregistration 
+       (user_id) 
+    VALUES 
+       (:NEW.user_id);
+END;
+/

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Authenticator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forgot Image.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forgot Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forgot Pattern.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Image Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Image Login Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Locker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pattern Login Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pattern Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
