@@ -1,2 +1,2 @@
 # 3-TierAuthenticationSystem
-A Cyber-Security Project which showcase a new way to unlock the Things.
+A Cyber-Security Project which showcases a new way to unlock the Things.
