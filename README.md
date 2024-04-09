@@ -43,4 +43,18 @@ A Cyber-Security Project which showcases a new way to unlock the Things.
  
  -> Microsoft Visual Studio as IDE for the Development of whole project. 
 
+# Screenshots
+
+![Homepage](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/11bed910-504c-4687-bcbe-5fa471f420a2)
+![Registration](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/d557bdab-2c82-4c26-bb49-3bd6bdb3416a)
+![Pattern_Registration](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/9c2b8ceb-db94-4634-a4dd-9935c2d4aed4)
+![Image Registration](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/daca4659-842b-4ff2-93d7-5037c58505e5)
+![Locker](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/8e995930-2198-45ac-b617-629cb938df72)
+![Login](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/0dfa0db7-501f-4d63-a1b0-0b007fed5899)
+![Pattern_Login](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/0926ce1b-1d8a-471b-9c5c-6c20fba1f256)
+![Image Login](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/c33db2cd-5ad7-4f14-860c-d9951696f6fa)
+![Success](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/ea7da752-bbcd-4a27-a411-913b12c29bae)
+![Forgot](https://github.com/Reddeadhacker2/3-TierAuthenticationSystem/assets/87486118/1ec05d14-46a9-4eaf-89d2-eb5943cb5bfd)
+
+
 
